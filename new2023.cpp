@@ -9,3 +9,12 @@ int main(){
     }
     return 0;
 }
+int after_stash(float k){
+    int waiting_for_somrthing_to_pop_out;
+    return 1;
+}
+float i_will_stash_this(int stash){
+    if (stash){
+        std::cout<<" i disappear~";
+    }
+}
