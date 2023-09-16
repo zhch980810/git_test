@@ -17,4 +17,8 @@ float i_will_stash_this(int stash){
     if (stash){
         std::cout<<" i disappear~";
     }
+float bug(){
+    std::cout<<"blowing in the wind!"<<std::endl;
+    return 0.01;
+}
 }
