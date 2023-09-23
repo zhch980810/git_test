@@ -1,12 +1,12 @@
 #include <iostream>
+#include <string>
+#include <vector>
 
 int main(){
-    for (int i=1;i<10;i++){
-        std::cout<<"revised"<<std::endl;
-        int a = 4;
-        int b = 384;
-        float c = a/b;
-    }
+    std::string s1;
+
+    std::vector<int> vec = {0,1,2,3,4,5,6,7};
+    std::cout<<vec.capacity();
     return 0;
 }
 int after_stash(float k){
@@ -17,6 +17,7 @@ float i_will_stash_this(int stash){
     if (stash){
         std::cout<<" i disappear~";
     }
+    return 0.01;
 }
 float bug(){
     std::cout<<"blowing in the wind!"<<std::endl;
